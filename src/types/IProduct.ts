@@ -6,5 +6,5 @@ export interface IProduct {
   volume: number
   name: string
   delivery_date: string
-  currenty: string
+  currency: string
 }

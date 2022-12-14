@@ -10,8 +10,27 @@
 }
 
 html {
+  background-color: #111827;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    gap: 3rem;
+  }
 }
